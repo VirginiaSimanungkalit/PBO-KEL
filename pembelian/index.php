@@ -12,7 +12,7 @@ require "../config/fungsion.php";
 require "../module/mode-beli.php";
 
 $title = "Transaksi- POSAPP";
-require "../template/header.php";
+require "../template/header.php";cl
 require "../template/navbar.php";
 require "../template/sidebar.php";
 

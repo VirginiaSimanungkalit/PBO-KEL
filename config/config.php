@@ -5,7 +5,7 @@ date_default_timezone_set('Asia/Jakarta');
 $host = 'localhost';
 $user = 'root';
 $pass = '';
-$dbname = 'db_posapp';
+$dbname = 'db_posapp1';
 
 $koneksi = mysqli_connect($host, $user, $pass, $dbname);
 
@@ -17,6 +17,6 @@ $koneksi = mysqli_connect($host, $user, $pass, $dbname);
    // echo "koneksi berhasil";
 // }
 
-$main_url = 'http://localhost/POSAPP/';
+$main_url = 'http://localhost/POSAPP1/';
 
 ?>

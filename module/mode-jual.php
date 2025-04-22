@@ -63,7 +63,7 @@ if (empty ($qty)) {
                             </script>"
               return false;
 } else {
-              $sqljual = "INSERT INTO tbl_beli_detail VALUES (null, '$no', '$tgl', '$kode', '$nama', '$qty', '$jumlharga')";
+              $sqljual = "INSERT INTO tbl_beli_detail VALUES (null, '$no', '$tgl', '$kode', '$nama', '$qty', '$jmlharga')";
               mysqli_query ($koneksi, $sqljual);
 }
 

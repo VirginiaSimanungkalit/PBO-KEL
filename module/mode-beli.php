@@ -6,7 +6,7 @@ function generateNO(){
 
               $queryNo = mysqli_query ($koneksi, "SELECT max(no_beli) as maxno FROM tbl_beli_head");
               $row = mysqli_fecth_assoc($queryNo);
-              $maxno = $data[maxno];
+              $maxno = $data['maxno'];
 
               $noUrut = (int) substr($maxno, 2, 4);
               $noUrut++;
@@ -51,7 +51,7 @@ if (empty ($qty)) {
                             </script>"
               return false;
 } else {
-              $sqlbeli = "INSERT INTO tbl_beli_detail VALUES (null, '$no', '$tgl', '$kode', '$nama', '$qty', '$jumlharga')";
+              $sqlbeli = "INSERT INTO tbl_beli_detail VALUES (null, '$no', '$tgl', '$kode', '$nama', '$qty', '$jmlharga')";
               mysqli_query ($koneksi, $sqlbeli);
 }
 
